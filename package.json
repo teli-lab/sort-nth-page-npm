@@ -1,0 +1,24 @@
+{
+  "type": "module",
+  "name": "@telilabs/sort-nth-page",
+  "version": "1.0.0",
+  "description": "Efficient in-memory pagination using quickselect — O(n) isolation + O(p log p) sort, no full sort required",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/telilabs/sort-nth-page.git"
+  },
+  "homepage": "https://github.com/telilabs/sort-nth-page#readme",
+  "bugs": {
+    "url": "https://github.com/telilabs/sort-nth-page/issues"
+  },
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": ["src"],
+  "scripts": {
+    "test": "node --test src/*.test.js"
+  },
+  "keywords": ["pagination", "quickselect", "sorting", "algorithm"],
+  "license": "MIT"
+}
